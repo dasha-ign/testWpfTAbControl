@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
                     xmlns:testwpftabcontrol="clr-namespace:testWpfTAbControl">
-    <DataTemplate x:Key="ViewModel1">
+    <DataTemplate x:Key="View1Model">
         <testwpftabcontrol:UserControl1/>
     </DataTemplate>
 </ResourceDictionary>

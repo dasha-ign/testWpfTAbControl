@@ -40,7 +40,9 @@ namespace testWpfTAbControl
             Tabs.Add(new TabItem { Header = "Header1", Content = new View1Model(1) });
             //should any data context be placed here??????
             Tabs.Add(new TabItem { Header = "Header2", Content = new View1Model(2) });
-           // OnPropertyChanged(Tabs);
+            Tabs.Add(new TabItem { Header = "Header3", Content = new View1Model(3) });
+            Tabs.Add(new TabItem { Header = "Header4", Content = new View1Model(4) });
+            // OnPropertyChanged(Tabs);
         }
     }
 }
