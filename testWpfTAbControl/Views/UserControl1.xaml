@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="testWpfTAbControl.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:testWpfTAbControl" d:DataContext="{d:DesignInstance Type=local:View1Model}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             >
+    <UniformGrid Rows="2">
+        <TextBlock Grid.Row="0" Text="This is the view"  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
+        <TextBlock Grid.Row="1" Text="{Binding View1Model.ModelNumber}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60"/>
+    </UniformGrid>
+</UserControl>
