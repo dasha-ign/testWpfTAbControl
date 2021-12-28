@@ -38,6 +38,7 @@ namespace testWpfTAbControl
         {
             Tabs = new ObservableCollection<TabItem>();
             Tabs.Add(new TabItem { Header = "Header1", Content = new View1Model(1) });
+            //should any data context be placed here??????
             Tabs.Add(new TabItem { Header = "Header2", Content = new View1Model(2) });
            // OnPropertyChanged(Tabs);
         }

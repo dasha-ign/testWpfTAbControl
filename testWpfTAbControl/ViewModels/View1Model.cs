@@ -20,7 +20,7 @@ namespace testWpfTAbControl
 
         #endregion
 
-        public View1Model( int num)
+        public View1Model(int num)
         {
             ModelNumber = num;
         }
